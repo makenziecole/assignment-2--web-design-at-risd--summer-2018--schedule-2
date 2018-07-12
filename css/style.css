@@ -1,118 +1,5 @@
-article, aside, details, figcaption, figure, footer, header, menu, nav,
-section {
-  display: block;
-}
 
-body {
-  line-height: 1;
-}
-
-ol, ul {
-  list-style: none;
-}
-
-blockquote, q {
-  quotes: none;
-}
-
-blockquote:before, blockquote:after, q:before, q:after {
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-body {
-  line-height: 1.5;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-}
-
-p {
-  margin: 24px;
-}
-
-div.transparent-background-container {
-  width: 80%;
-  margin: auto;
-  padding: 12px;
-}
-
-.hero:nth-of-type(1) {
-  background: url("../img/a.jpg") scroll 0 0/cover;
-}
-.hero:nth-of-type(1) > .transparent-background-container {
-  color: #f2ebd9;
-  background-color: rgba(60, 59, 57, 0.9);
-}
-.hero:nth-of-type(2) {
-  background: url("../img/b.jpg") fixed 0 0/cover;
-}
-.hero:nth-of-type(2) > .transparent-background-container {
-  color: #f5e0b5;
-  background-color: rgba(77, 84, 94, 0.9);
-}
-.hero:nth-of-type(3) {
-  background: url("../img/c.jpg") scroll 0 0/cover;
-}
-.hero:nth-of-type(3) > .transparent-background-container {
-  color: #00243a;
-  background-color: rgba(227, 194, 159, 0.9);
-}
-.hero:nth-of-type(4) {
-  background: url("../img/d.jpg") fixed 0 0/cover;
-}
-.hero:nth-of-type(4) > .transparent-background-container {
-  color: #231352;
-  background-color: rgba(229, 180, 122, 0.9);
-}
-.hero:nth-of-type(5) {
-  background: url("../img/e.jpg") scroll 0 0/cover;
-}
-.hero:nth-of-type(5) > .transparent-background-container {
-  color: #4a4b4d;
-  background-color: rgba(255, 255, 255, 0.9);
-}
-
-footer {
-  text-align: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-footer a {
-  color: red;
-  text-decoration: none;
-}
-
-
-div {
-  width: 500px;
-  margin: 10px
-}
-
-ol {
-  color: #ccc;
-  list-style-type: none;
-}
-
-ol li {
-  position: relative;
-  font: bold italic 45px/1.5 Helvetica, Verdana, sans-serif;
-  margin-bottom: 20px;
-}
-
-li p {
-  font: 12px/1.5 Helvetica, sans-serif;
-  padding-left: 60px;
-  color: #555;
-}
-
-span {
-  position: absolute;
-}
-
+/*animation for numbers*/
 body{
   font-family: 'Lato', sans-serif;
     ;
@@ -178,4 +65,16 @@ div.foo{
     rotateY(40deg)
     rotateZ(0deg)
     skew(0deg,22deg);
+}
+
+/*columns*/
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
