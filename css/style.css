@@ -17,7 +17,6 @@ blockquote, q {
 
 blockquote:before, blockquote:after, q:before, q:after {
   content: none;
-   font-family: 'Rock Salt', cursive;
 }
 
 table {
@@ -85,4 +84,29 @@ footer {
 footer a {
   color: red;
   text-decoration: none;
+}
+div {
+  width: 500px;
+  margin: 10px
+}
+
+ol {
+  color: #ccc;
+  list-style-type: none;
+}
+
+ol li {
+  position: relative;
+  font: bold italic 45px/1.5 Helvetica, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+
+li p {
+  font: 12px/1.5 Helvetica, sans-serif;
+  padding-left: 60px;
+  color: #555;
+}
+
+span {
+  position: absolute;
 }
