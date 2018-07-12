@@ -1,3 +1,30 @@
+/*background*/
+* {
+   margin: 0;
+   padding: 0;
+}
+
+section {
+   height: 975px;
+}
+
+section:nth-child(1) {
+   background: url("https://cdn2.pitchfork.com/longform/734/Boards-of-Canada.jpg");
+   background-size: cover;
+}
+
+section:nth-child(2) {
+   background-color: white;
+}
+
+section div {
+   width: 90%;
+   margin: auto;
+}
+
+p {
+   margin: auto;
+}
 
 /*animation for numbers*/
 body{
@@ -7,7 +34,7 @@ body{
 div.foo{
   width: 90%;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 .letter{
   display: inline-block;
@@ -42,7 +69,7 @@ div.foo{
     rotateZ(0deg);
 }
 .letter:after{
-  color: rgba(0,0,0,.11);
+  color: grey;
   z-index:2;
   transform:
     scale(1.08,1)
