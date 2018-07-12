@@ -4,25 +4,3 @@
    height: 60vh;
    text-align: center;
 }
-.pull-quote {
-   font-weight: 400;
-   letter-spacing: 1.5px;
-   font-style: normal;
-   font-size: 1.125rem;
-   max-width: 50%;
-   line-height: 1.15em;
-   text-transform: uppercase;
-   color: #1779ba;
-   float: right;
-   margin: 10px 0 0 20px;
-}
-.pull-quote:before{
-   content: 'Despite its name, Music… is about as grown-up as records get: an adult meditation on childhood, concerned with play, naïveté and nostalgia, all tinted with rosy pastoralism. But it’s also devilishly subtle, intricate and emotionally mature. That’s surprisingly rare in electronic music, most of which is concerned with the physicality of dance, intellectual weight, or the evocation of atmosphere rather than a holistic experience. By introducing themes of suppression, solitude and grief into Music…’s evocations of childhood, Boards of Canada created a record that was pretty but seldom precious, more faithful to experience than kitsch idealism. This ambiguity has endeared Music Has The Right To Children to its hordes of fans over time: as its listeners grew ever further away from the childhood it evoked, the album, bizarrely, became more relevant.';
-}
-@media print, screen and (min-width: 40em) {
-  .pull-quote {
-    font-size: 1.875rem;
-    max-width: calc(50% - 5%);
-    margin-right: -15%;
-  }
-}
