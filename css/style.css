@@ -1,4 +1,5 @@
 /*background*/
+
 * {
    margin: 0;
    padding: 0;
@@ -9,19 +10,48 @@ section {
 }
 
 section:nth-child(1) {
-   background: url("https://cdn2.pitchfork.com/longform/734/Boards-of-Canada.jpg");
+   background: url("../img/top.jpg");
+   background-size: cover;
+
+}
+section:nth-child(2) {
+   background: url("../img/untitled-1.png");
    background-size: cover;
 }
-
-section:nth-child(2) {
-   background-color: white;
+section:nth-child(3) {
+   background: #d0f0c0;
 }
 
-section div {
-   width: 90%;
-   margin: auto;
+section:nth-child(4) {
+   background: white;
 }
-
+section:nth-child(5) {
+   background: #d0f0c0;
+}
+section:nth-child(6) {
+   background: white;
+}
+section:nth-child(7) {
+   background: #d0f0c0;
+}
+section:nth-child(8) {
+   background: white;
+}
+section:nth-child(9) {
+   background: #d0f0c0;
+}
+section:nth-child(10) {
+   background: white;
+}
+section:nth-child(11) {
+   background: #d0f0c0;
+}
+section:nth-child(12) {
+   background: white;
+}
+section:nth-child(13) {
+   background: #d0f0c0;
+}
 p {
    margin: auto;
 }
@@ -104,4 +134,39 @@ div.foo{
     content: "";
     display: table;
     clear: both;
+}
+h1{
+   color: white;
+   Font-size: 120pt;
+   font-family: 'Suez One', serif;
+
+
+}
+h5{
+   color: white;
+   font-size: 36pt;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+h4{
+   color: darkgrey;
+   font-size: 36pt;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+h2{
+   font-family: 'Roboto Condensed', sans-serif;
+}
+em{
+   color:#00B4F1;
+   font-size: 18pt;
+}
+ul {
+    -moz-column-count: 4;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 20px;
+    column-count: 4;
+    column-gap: 20px;
+}
+ul {
+  width: 300px;
 }
