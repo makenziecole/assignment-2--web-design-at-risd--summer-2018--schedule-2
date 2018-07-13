@@ -1,4 +1,18 @@
 /*background*/
+body{
+   text-align: left;
+vertical-align: middle;
+line-height: 90px;
+color:#00B4F1;
+font-family: 'Roboto Condensed', sans-serif;
+}
+p {
+line-height: 1.4em;
+text-indent: 50px;
+word-spacing: 2px;
+letter-spacing: -1px;
+font-size:18pt;
+}
 
 * {
    margin: 0;
@@ -21,36 +35,13 @@ section:nth-child(2) {
 section:nth-child(3) {
    background: #d0f0c0;
 }
-
 section:nth-child(4) {
-   background: white;
+   background: #d0f0c0;
 }
+
 section:nth-child(5) {
-   background: #d0f0c0;
-}
-section:nth-child(6) {
    background: white;
-}
-section:nth-child(7) {
-   background: #d0f0c0;
-}
-section:nth-child(8) {
-   background: white;
-}
-section:nth-child(9) {
-   background: #d0f0c0;
-}
-section:nth-child(10) {
-   background: white;
-}
-section:nth-child(11) {
-   background: #d0f0c0;
-}
-section:nth-child(12) {
-   background: white;
-}
-section:nth-child(13) {
-   background: #d0f0c0;
+
 }
 p {
    margin: auto;
@@ -142,6 +133,11 @@ h1{
 
 
 }
+h3{
+   color: darkgrey;
+   font-size: 24pt;
+   font-family: 'Roboto Condensed', sans-serif;
+}
 h5{
    color: white;
    font-size: 36pt;
@@ -149,7 +145,7 @@ h5{
 }
 h4{
    color: darkgrey;
-   font-size: 36pt;
+   font-size: 28pt;
    font-family: 'Roboto Condensed', sans-serif;
 }
 h2{
